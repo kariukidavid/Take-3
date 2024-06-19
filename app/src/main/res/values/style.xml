@@ -1,0 +1,35 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/navy_blue</item>
+        <item name="colorPrimaryDark">@color/dark</item>
+        <item name="colorAccent">@color/light_green</item>
+        <item name="android:colorBackground">@color/light_white</item>
+        <item name="android:textColor">@color/Default</item>
+    </style>
+
+    <!-- Custom button style -->
+    <style name="CustomButtonStyle">
+        <item name="android:background">@color/button_green</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Custom text style -->
+    <style name="CustomTextStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/navy_blue</item>
+    </style>
+
+    <!-- Custom edit text style -->
+    <style name="CustomEditTextStyle">
+        <item name="android:background">@color/light_white</item>
+        <item name="android:textColor">@color/Default</item>
+
+    </style>
+
+    <!-- Custom toolbar style -->
+    <style name="CustomToolbarStyle" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:background">@color/navy_blue</item>
+        <item name="android:titleTextColor">@color/white</item>
+    </style>
+</resources>
